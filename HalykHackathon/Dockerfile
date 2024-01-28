@@ -10,4 +10,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . /app
 
 # Запускаем приложение
-CMD ["uvicorn", "main:app", "--host", "https://halyklifehackathon2024-uzjmr4bgkbxjbcyhtuutr6.streamlit.app/", "--port", "8080"]
+CMD ["uvicorn", "main:app", "--host", "192.30.255.112 "--port", "8080"]
